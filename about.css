@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    background-color: white;
+    color: black;
+    
+}
+header {
+    color: #fff;
+    background: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0.5em 1em 0.5em 1em;
+
+}
+.search-bar {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 150px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+header img{
+
+    height: auto;
+    width: 50%;
+    margin: 10px 370px;
+
+}
+nav a:hover{
+
+    cursor: pointer;
+   
+}
+
+
+
+header {
+  
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 1em;
+    z-index: 1000;
+    position: relative;
+}
+
+.logo {
+    max-width: 50%; /* Ensure the logo doesn't exceed the width of the header */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    display: block; /* Center the image using margin */
+    margin: 0 auto; /* Center the image horizontally */
+}
+nav {
+    margin-top: 10px;
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end; /* Align items to the end of the container (right side) */
+}
+
+header {
+    color: #fff;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 1em;
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Pathway Extreme', sans-serif;
+}
+
+
+
+.search-bar {
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Pathway Extreme', sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 150px;
+}
+
+.search-bar button {
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Pathway Extreme', sans-serif;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Pathway Extreme', sans-serif;
+
+}
+footer img{
+
+    height: 40px;
+    width: 40px;
+}
+.footer-logo{
+    margin-top: -30px;
+    margin-bottom: -30px;
+    height: 120px;
+    width: 120px;
+
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items to the start (left side) */
+    background-color: #333; /* Adjust background color as needed */
+    color: white; /* Adjust text color as needed */
+    padding: 10px;
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust the max-width of the logo */
+    margin-bottom: -46px; /* Add some space between the logo and text */
+}
+.footer p{
+    margin: -50px;
+}
+
+.social-icons {
+    display:flex;
+    margin-bottom: -64px; /* Add some space between the icons and the text */
+}
+
+.social-icons a {
+    margin-right: 10px; /* Add some space between the icons */
+}
+
+.social-icons img {
+    max-width: 90px; /* Adjust the max-width of the icons */
+}
+
+#fpro{
+
+    height: 300px;
+}
+.aa{
+
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: -52px;
+}
+ .m{
+     margin: 50px;
+    height: 400px;
+    width: 550px;
+    margin-top: 196px;
+    border-radius: 10px;
+}
+
+.t1{
+
+    margin-top: 30px;
+
+}
+.f1{
+
+    margin: 20px 0px;
+    
+}
+h2{
+
+    margin-top: 20px;
+}
+h1{
+
+    font-size: 50px;
+}
+
+.text{
+    padding: 80px;
+    margin-bottom: 50px;
+    font-family: 'Indie Flower';
+    font-size: 20px;
+}
+
+
+
+.log{
+
+    margin-top: 30px;
+}
+#fpro{
+
+    height: 300px;
+}
+#f2{
+
+    margin-top: -20px;
+}
+#f3{
+
+    margin-top: 35px;
+}
